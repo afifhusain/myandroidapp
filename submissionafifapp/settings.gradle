@@ -1,0 +1,2 @@
+rootProject.name='submissionafifapp'
+include ':app'

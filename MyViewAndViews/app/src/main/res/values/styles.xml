@@ -19,6 +19,15 @@
         <item name="android:textAppearance">@style/TextAppearance.AppCompat.Small</item>
     </style>
 
+    <style name="TextContent.Small.White">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="TextContent.Subtitle">
+        <item name="android:textColor">@color/colorSubTitle</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
     <style name="TextContent.Black">
         <item name="android:textColor">@android:color/black</item>
     </style>
