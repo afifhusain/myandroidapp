@@ -1,58 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/palm"
     tools:context=".MainActivity">
-    
+
     <LinearLayout
-        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
         <RelativeLayout
-            android:layout_marginTop="30dp"
-            android:layout_marginRight="23dp"
-            android:layout_marginLeft="23dp"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="23dp">
 
             <TextView
                 android:id="@+id/porto"
-                android:text="My Portofolio"
-                android:textSize="23sp"
-                android:textStyle="bold"
-                android:textColor="#080808"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:text="@string/my_course_app"
+                android:textColor="#080808"
+                android:textSize="23sp"
+                android:textStyle="bold" />
 
             <TextView
-                android:layout_below="@+id/porto"
-                android:text="View My Personal Detail Here"
-                android:textStyle="bold"
-                android:textSize="13sp"
-                android:textColor="#080808"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/porto"
+                android:text="@string/let_s_study_and_try"
+                android:textColor="#080808"
+                android:textSize="13sp"
+                android:textStyle="bold" />
 
 
             <de.hdodenhof.circleimageview.CircleImageView
-                android:layout_alignParentRight="true"
-                android:src="@drawable/palm"
                 android:layout_width="82dp"
-                android:layout_height="82dp" />
-        
-        
+                android:layout_height="82dp"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/palm" />
+
+
         </RelativeLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/course"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:listitem="@layout/scroll_item" />
+
 
 
     </LinearLayout>
-
-
 
 
 </ScrollView>

@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Submission</string>
+    <string name="title">detail</string>
+    <string name="desc">desc</string>
+    <string name="my_course_app">My Course App</string>
+    <string name="let_s_study_and_try">Let\'s Study And Try</string>
 </resources>
