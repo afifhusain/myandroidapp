@@ -17,7 +17,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="23dp"
             android:layout_marginTop="30dp"
-            android:layout_marginRight="23dp">
+            android:layout_marginRight="15dp">
 
             <TextView
                 android:id="@+id/porto"
@@ -29,6 +29,7 @@
                 android:textStyle="bold" />
 
             <TextView
+                android:id="@+id/lets"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/porto"
@@ -37,12 +38,23 @@
                 android:textSize="13sp"
                 android:textStyle="bold" />
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lets"
+                android:text="About Me"
+                android:textColor="#FFFFFF"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+
 
             <de.hdodenhof.circleimageview.CircleImageView
-                android:layout_width="82dp"
-                android:layout_height="82dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="15dp"
                 android:layout_alignParentRight="true"
-                android:src="@drawable/palm" />
+                android:src="@drawable/user"
+                />
 
 
         </RelativeLayout>
