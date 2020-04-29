@@ -44,6 +44,7 @@ public class ListCourseAdapter extends RecyclerView.Adapter<ListCourseAdapter.Li
 
     @Override
     public int getItemCount() {
+
         return listCourse.size();
     }
 

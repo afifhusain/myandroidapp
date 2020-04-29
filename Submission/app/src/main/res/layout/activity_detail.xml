@@ -20,31 +20,22 @@
             android:layout_marginRight="15dp">
 
             <TextView
-                android:id="@+id/porto"
+                android:id="@+id/detail"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/my_course_app"
+                android:text="@string/halaman_detail"
                 android:textColor="#080808"
                 android:textSize="23sp"
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/lets"
+                android:id="@+id/back"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/porto"
-                android:text="@string/let_s_study_and_try"
+                android:layout_below="@+id/detail"
+                android:text="Home"
                 android:textColor="#080808"
-                android:textSize="13sp"
-                android:textStyle="bold" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/lets"
-                android:text="About Me"
-                android:textColor="#FFFFFF"
-                android:textSize="13sp"
+                android:textSize="20sp"
                 android:textStyle="bold" />
 
 
@@ -56,14 +47,17 @@
                 android:src="@drawable/palm"
                 />
 
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/compute"/>
+
 
         </RelativeLayout>
 
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/course"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            tools:listitem="@layout/scroll_item" />
+
+
+
 
 
 

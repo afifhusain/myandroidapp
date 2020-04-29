@@ -5,6 +5,8 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
+import android.view.View;
+import android.widget.TextView;
 
 import com.afifhusain.submission.adapter.ListCourseAdapter;
 import com.afifhusain.submission.model.Course;
@@ -12,7 +14,7 @@ import com.afifhusain.submission.model.CourseData;
 
 import java.util.ArrayList;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     private RecyclerView course;
     private ArrayList<Course> list = new ArrayList<>();
@@ -25,6 +27,10 @@ public class MainActivity extends AppCompatActivity {
         course = findViewById(R.id.course);
         course.setHasFixedSize(true);
 
+        RecyclerView detailActivity = findViewById(R.id.course);
+        detailActivity.setOnClickListener(this);
+
+
         list.addAll(CourseData.getData());
         showRecycleList();
     }
@@ -36,4 +42,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+    @Override
+    public void onClick(View v) {
+        switch (v.getId()) {
+            case R.id.course:
+                break;
+        }
+    }
 }
