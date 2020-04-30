@@ -39,16 +39,29 @@
                 android:textStyle="bold" />
 
             <TextView
+                android:id="@+id/about1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/lets"
-                android:text="About Me"
+                android:text="@string/about_me"
+                android:textColor="#FFFFFF"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/dtil"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/about1"
+                android:layout_marginLeft="150dp"
+                android:text="@string/detailsl"
                 android:textColor="#FFFFFF"
                 android:textSize="13sp"
                 android:textStyle="bold" />
 
 
             <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/about2"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_marginRight="15dp"
@@ -63,7 +76,7 @@
             android:id="@+id/course"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            tools:listitem="@layout/scroll_item" />
+            tools:listitem="@layout/scroll_item"/>
 
 
 

@@ -5,4 +5,12 @@
     <string name="my_course_app">My Course App</string>
     <string name="let_s_study_and_try">Let\'s Study And Try</string>
     <string name="halaman_detail">Halaman Detail</string>
+    <string name="online_course_app">Online Course App</string>
+    <string name="lets_start_your_course_with_my_app">Lets start your course with my APP</string>
+    <string name="address">abdul_manan_street_bukittinggi</string>
+    <string name="age">21 years old</string>
+    <string name="afifhusain2014gmailcom">afifhusain2014gmailcom</string>
+    <string name="name">afif husain</string>
+    <string name="about_me">About Me</string>
+    <string name="detailsl">Details</string>
 </resources>

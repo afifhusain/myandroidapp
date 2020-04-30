@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ExamAfif</string>
+    <string name="lecture">My Lecture App</string>
+    <string name="study">Let\'s Study and Try</string>
+    <string name="about">About Me</string>
+    <string name="details">details</string>
+    <string name="online_course_app">Online Course App</string>
+</resources>

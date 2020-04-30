@@ -23,7 +23,7 @@
                 android:id="@+id/detail"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/halaman_detail"
+                android:text="Detail Page"
                 android:textColor="#080808"
                 android:textSize="23sp"
                 android:textStyle="bold" />
@@ -33,8 +33,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/detail"
-                android:text="Home"
-                android:textColor="#080808"
+                android:text="@string/online_course_app"
+                android:textColor="#3700B3"
                 android:textSize="20sp"
                 android:textStyle="bold" />
 
@@ -48,17 +48,47 @@
                 />
 
             <ImageView
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:src="@drawable/compute"/>
+                android:id="@+id/image"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="30dp"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:src="@drawable/compute"
+                android:layout_below="@+id/back"/>
+
 
 
         </RelativeLayout>
 
+        <TextView
+            android:id="@+id/imgtext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lets_start_your_course_with_my_app"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="38dp"
+            android:layout_marginTop="-40dp"/>
 
 
-
-
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="120dp"
+            android:src="@drawable/cybe"
+            />
+        <TextView
+            android:id="@+id/img2txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start Course"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="135dp"
+            android:layout_marginTop="0dp"/>
 
 
     </LinearLayout>
